@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url(./imagen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+h1{
+  text-align: center;
+  margin: 5% 1%;
+  border: 10px solid transparent;
+  margin: 20px;
+}
+h2{
+  text-align: center;
+  margin: 5% 1%;
+  border: 10px solid transparent;
+  margin: 20px;
+}
+#divtotal{
+    border: solid 2px rgba(32, 25, 63, 0.97);
+    background-color: rgba(32, 25, 63, 0.97);
+    border-radius: 4px 4px ;
+    margin:0 auto;
+    width: 80%;
+
+  }
+
+  
+  form{
+   
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 1px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  select {
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  #div2 {
+    background-color:transparent
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+  }
+
+#boton{
+  border: 1px solid rgb(104, 255, 104);
+  background-color:rgb(104, 255, 104);
+  margin: 2px;
+  color:white;
+  width:100%;
+  height:30px;
+}
+
+
+
